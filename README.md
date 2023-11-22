@@ -1,10 +1,8 @@
 # React + Vite + Tailwind Health App
 
-This is a healthy app UI design that I saw on Dribble and decided to create.
+This is a healthy app UI design that I saw on Dribble and decided to create it.
 
-![Health App] (scrn.jpg)
-
-<img src="scrn.jpg" alt="Getting started" />
+<img src="scrn.jpg" alt="Health App" />
 
 Currently, two official plugins are available:
 
