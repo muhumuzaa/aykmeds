@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import Logo from '../assets/images/logo.png'
+import log from "../assets/images/log.png";
 
 
 const Navbar = () => {
@@ -12,8 +13,12 @@ const Navbar = () => {
     <nav className='bg-white fixed w-full top-0 z-50'>
       <div className='flex  py-4 justify-between max-w-7xl mx-auto px-5'>
         <div className='flex items-center '>
-         <a href="/"><img src={Logo} alt="logo" className='h-8 mr-6'/></a> 
-         <div className='hidden md:flex space-x-4'>
+         <a href="/"><img
+                src={log}
+                alt="meds"
+                className="md:h-11 md:w-11 h-8 w-8 bg-[#D9D9FF] rounded-full mx-1 self-center"
+              /></a> 
+         <div className='hidden md:flex space-x-6 ml-8'>
           <a href="#" className='hover:font-semibold'>Services</a>
           <a href="#" className='hover:font-semibold'>How it works</a>
           <a href="#" className='hover:font-semibold'>Testimonials</a>

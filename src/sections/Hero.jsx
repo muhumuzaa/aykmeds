@@ -103,16 +103,15 @@ const Hero = () => {
             <div className="absolute right-[-50px] top-10 -rotate-45">
               <img src={steth} alt="ste" />
             </div>
-            
+
             <div className="bg-white rounded-3xl absolute bottom-[-40px] right-[-20px] py-10 px-10 shadow-xl border">
-            <div className="flex gap-x-1 items-center justify-center mb-4"> 
-              <FaCircle className="fill-purple-100"/>
-              <FaCircle className="fill-purple-100"/>
-              <FaCircle className="fill-purple-100"/>
-              <FaCircle className="fill-purple-200"/>
-              <FaCircle className="fill-purple-400"/>
-            </div>
-            
+              <div className="flex gap-x-1 items-center justify-center mb-4">
+                <FaCircle className="fill-purple-100" />
+                <FaCircle className="fill-purple-100" />
+                <FaCircle className="fill-purple-100" />
+                <FaCircle className="fill-purple-200" />
+                <FaCircle className="fill-purple-400" />
+              </div>
               What level of tiredness do you feel now?
             </div>
           </div>
