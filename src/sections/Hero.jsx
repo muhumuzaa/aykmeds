@@ -12,7 +12,7 @@ const Hero = () => {
   return (
     <div className="md:max-w-7xl mx-auto md:pt-40 pt-20 px-6">
       {/* hero sec-1 */}
-      <div className="lg:grid grid-cols-3 gap-10">
+      <div className="lg:grid grid-cols-3 gap-10 md:-mb-20">
         <div className="col-span-2">
           <h1 className="md:text-6xl text-4xl uppercase leading-relaxed font-bold tracking-widest">
             Health
